@@ -7,7 +7,7 @@ def get_dict(file_name):
     number_ingr = 0
     cook_book ={}
 
-    with open (file_name, encoding='utf8') as recipes_file:
+    with open(file_name, encoding='utf8') as recipes_file:
     
         for line in recipes_file:
 
